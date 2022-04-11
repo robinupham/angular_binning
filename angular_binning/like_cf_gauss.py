@@ -15,7 +15,7 @@ import numpy as np
 import scipy.special
 
 
-DEG_TO_RAD = np.pi / 180
+DEG_TO_RAD = np.pi / 180.0
 
 
 # Simple classes to help keep this understandable
