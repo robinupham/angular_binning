@@ -2,6 +2,7 @@
 Functions for plotting the signal to noise per angular bin.
 """
 
+import math
 import os.path
 
 import matplotlib
@@ -11,7 +12,7 @@ import numpy as np
 import angular_binning.like_cf_gauss as like_cf
 
 
-DEG_TO_RAD = np.pi / 180.0
+DEG_TO_RAD = math.pi / 180.0
 
 
 def plot_cl_cf(diag_she_cl_path, she_nl_path, lmin, lmax, theta_min, theta_max, n_theta_bin, survey_area_sqdeg,

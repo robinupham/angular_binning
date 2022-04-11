@@ -8,6 +8,7 @@ point in parameter space.
 """
 
 import enum
+import math
 import os.path
 from collections import namedtuple
 
@@ -15,7 +16,7 @@ import numpy as np
 import scipy.special
 
 
-DEG_TO_RAD = np.pi / 180.0
+DEG_TO_RAD = math.pi / 180.0
 
 
 # Simple classes to help keep this understandable
